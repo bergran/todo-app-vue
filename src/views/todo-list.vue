@@ -68,6 +68,7 @@ export default {
   flex-grow: 1;
   display: flex;
   justify-content: stretch;
+  background: #ededed;
 
   .title {
     margin: 0;
@@ -75,7 +76,8 @@ export default {
 }
 
 .todo-list-in-container {
-  background: rgba(0, 0, 0, 0.2);
+  background: #FFF;
+  box-shadow: -1px 7px 78px 0px rgba(143,143,143,1);
   width: 100%;
   border-radius: 15px;
   padding: 10px;
@@ -103,7 +105,6 @@ export default {
   }
 
   .todo-list-in-container {
-    background: rgba(0, 0, 0, 0.2);
     width: 500px;
     height: 600px;
   }
